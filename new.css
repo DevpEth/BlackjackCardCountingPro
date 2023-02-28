@@ -1,0 +1,171 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: casino;
+  src: url(casino.3d-filled-regular.ttf);
+}
+
+@font-face {
+  font-family: cards;
+  src: url(CARDC___.TTF);
+}
+
+body{
+  background-color: #1d272c;
+}
+
+
+.card-buttons-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.card-button {
+  position: relative;
+  width: 80px;
+  height: 100px;
+  margin: 0 10px;
+  font-size: 44px;
+  font-weight: 700;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #ff0000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: cards;
+}
+
+.click-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #424040;
+}
+
+.card-button:hover {
+  background-color: #bebebe; 
+}
+
+
+
+
+#count-btn {
+  border-radius: 30px;
+  background-color: #00c01d;
+  color: #ffffff;
+  width: 110px;
+  height: 45px;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button#reset-btn {
+  border-radius: 30px;
+  background-color: #ff0000;
+  color: #ffffff;
+  width: 110px;
+  height: 45px;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  font-weight: 600; 
+  cursor: pointer;
+
+}
+
+/* New styles for card count values */
+.card-count-container {
+  display: flex;
+  align-items: center;
+
+  font-family: 'Inter', sans-serif;
+
+  
+}
+
+
+
+
+
+
+.card-count {
+  margin-left: 50px;
+  border-top: 1px solid #000;
+  border-right : 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left : 1px solid #000;
+  padding: 0px 20px 0px 30px;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  padding: 24px;
+  
+}
+
+
+.card-buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 20px;
+  border-top: 10px solid #7B3F00;
+  border-right : 10px solid #7B3F00;
+  border-bottom: 10px solid #7B3F00;
+  border-left : 10px solid #7B3F00;
+  padding: 25px 20px 25px 20px;
+  border-radius: 1000px 1000px 1000px 1000px;
+  padding: 70px;
+  background-image: url("table.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%;
+
+}
+
+
+h1 {
+  font-family: casino;
+  font-size: 55px;
+  font-weight: 300; 
+  margin: 50px 0px 30px 285px;
+  background: linear-gradient(to right, #f32170,#fbe380, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 30px 0px 50px 0px;
+  color: #ffffff;
+  font-size: 25px;
+  border-bottom: 1px solid #fff;
+}
+
+.startbtn {
+  margin: 0px 10px 30px 0px;
+}
+
+
+
+
+
+
